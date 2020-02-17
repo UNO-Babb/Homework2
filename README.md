@@ -26,5 +26,15 @@ For the purpose of this assignment, we will be reading the contents of a website
 - Identify all e-mail addresses on that page.
   - An e-mail address contains the '@' symbol
   - The addresses will be bound by HTML tags
-  - <li><href="mailto:dvbabb@unomaha.edu">dvbabb@unomaha.edu</a></li>
-- 
+- Prints a list of all e-mail addresses on the web site.
+  - Duplicate e-mail addresses should not be in the list.
+- There should be text on both sides of the @ symbol in an e-mail address.
+- Beyond that, addresses do not need to be validated.
+
+### Sample Output
+```
+Enter url: https://www.example.comm
+Email addresses found:
+webmaster@example.com
+bob@example.com
+```
