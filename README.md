@@ -12,11 +12,13 @@ Example applications:
 Beautiful Soup is a python library designed to make web scraping easy. There are a lot of built-in functionality. I encourage you to research and use this library but for this assignment, we are only going to look at the contents of a web site.
 - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+### Installing on a home computer
 To install Beautiful soup, go to a command line and run the following:
 ```
 python -m pip install --upgrade pip
 pip install beautifulsoup4
 ```
+We will not need to do this in repl.it
 
 ### Email_Extractor.py
 For the purpose of this assignment, we will be reading the contents of a website, and extracting the email addresses and storing the results to a list. The list should be printed in the end. If this were part of a larger e-mail harvesting operation, we would want to be able to crawl from one website to another, with the final list saved to a file for future use.
