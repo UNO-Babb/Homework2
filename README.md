@@ -58,6 +58,6 @@ As always, please make sure you are commenting your code to make it clear what y
 ### Sample Output
 ```
 Current Time 10:41 AM
-The next will arrive in 9 minutes.
+The next bus will arrive in 9 minutes.
 The following bus will arrive in 39 minutes.
 ```
