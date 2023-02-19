@@ -1,6 +1,8 @@
 { pkgs }: {
   deps = [
-    pkgs.python38Full
+    pkgs.python310Full
+    pkgs.replitPackages.prybar-python310
+    pkgs.replitPackages.stderred
     pkgs.chromium
     pkgs.chromedriver
   ];
