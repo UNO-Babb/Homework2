@@ -1,4 +1,4 @@
-# Homework 2 - Bus Schedule Countdown
+# Homework 2 - Craigslist Scraping
 
 ### Web Scraping
 In our last assignment, we used an API to get information from a source. Not all data sources have a nice means for programmers to access. There are times that we need to read data from a web page.
@@ -34,7 +34,7 @@ The website [Craigslist](https://omaha.craigslist.org/) allows us to search for 
   - Minimum Price
   - Maximum Price
 
-These can be "hard coded" into your program (you don't need to prompt the user) but the URL that you are fetching from Metro should be dynamic in that we could change the information in a clear way and not within the complicated URL.
+These can be "hard coded" into your program (you don't need to prompt the user) but the URL that you are fetching from Craigslist should be dynamic in that we could change the information in a clear way and not within the complicated URL.
 
 - Helper Functions
   - loadURL(url) - This function loads a given URL and displays the contents of the site.
