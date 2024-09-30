@@ -42,7 +42,7 @@ def loadTestPage():
 def main():
   url = "https://myride.ometro.com/Schedule?stopCode=2269&routeNumber=11&directionName=EAST"
   #c1 = loadURL(url) #loads the web page
-  Sc1 = loadTestPage() #loads the test page
+  c1 = loadTestPage() #loads the test page
   print(c1)
 
 main()

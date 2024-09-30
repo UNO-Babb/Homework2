@@ -44,7 +44,7 @@ The website [ometro.com](https://myride.ometro.com/) displays real-time estimate
 
 The example we are using is the Bus 11 stop at 67th and Pacific - Eastbound. You can select any stop in the Metro system but it should be different than the one in our example.
 
-These can be "hard coded" into your program (you don't need to prompt the user) but the URL that you are fetching from Craigslist should be dynamic in that we could change the information in a clear way and not within the complicated URL.
+These can be "hard coded" into your program (you don't need to prompt the user) but the URL that you are fetching from OMetro should be dynamic in that we could change the information in a clear way and not within the complicated URL.
 
 - Helper Functions
   - loadURL(url) - This function loads a given URL and displays the contents of the site.
