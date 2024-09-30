@@ -15,6 +15,10 @@ Beautiful Soup is a python library designed to make web scraping easy. There are
 ### Selenium
 Beautiful Soup is a super useful tool but it does not "load" a website. It gets the contents of the HTML but sometimes a website needs to run to fully load. There might be Java Script or Python that run in your browser to get information and load dynamically.
 - [Selenium Documentation](https://www.selenium.dev/)
+- You will have to install Selenium with the following command in your CodeSpace terminal
+'''
+pip install selenium
+'''
 
 ### The Problem
 UNO students can ride the Ometro busses for free with their MavCard. The problem is that, when you are at a bus stop, there is no indication of how near the bus is.
