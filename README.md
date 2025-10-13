@@ -20,6 +20,14 @@ Beautiful Soup is a super useful tool but it does not "load" a website. It gets 
 pip install selenium
 ```
 
+### Additional Packages
+For some reason, this has been giving an error. I think there are dependencies that are not configured. Installing the following package will fix this though it is likely overkill.
+```
+pip install playwright
+playwright install
+sudo playwright install-deps
+```
+
 ### The Problem
 UNO students can ride the Ometro busses for free with their MavCard. The problem is that, when you are at a bus stop, there is no indication of how near the bus is.
 
